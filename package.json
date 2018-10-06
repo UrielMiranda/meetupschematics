@@ -1,0 +1,28 @@
+{
+  "name": "meetup",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^0.8.4",
+    "@angular-devkit/schematics": "^0.8.4",
+    "@angular/cli": "^6.2.4",
+    "@schematics/angular": "^0.8.4",
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.31",
+    "angular": "^1.7.5",
+    "cli": "^1.0.1",
+    "jasmine": "^2.8.0",
+    "schematics": "^0.2.0",
+    "typescript": "^2.5.2"
+  }
+}
